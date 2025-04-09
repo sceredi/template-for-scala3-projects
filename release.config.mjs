@@ -6,6 +6,10 @@ echo "RELEASE_VERSION="\${nextRelease.version} >> $GITHUB_ENV
 git tag -a -f v\${nextRelease.version} v\${nextRelease.version} -F CHANGELOG.md  || exit 1
 export CI_COMMIT_TAG="true"
 `;
+
+const releaseBranches = ["master"];
+config.branches = releaseBranches;
+
 config.plugins.push(
   [
     "@semantic-release/exec",
