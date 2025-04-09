@@ -1,6 +1,7 @@
-import org.scalatest._
-import flatspec._
-import matchers._
+import org.scalatest.*
+
+import flatspec.*
+import matchers.*
 
 class ExampleSpec extends AnyFlatSpec with should.Matchers:
 
