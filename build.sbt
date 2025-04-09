@@ -6,14 +6,13 @@ lazy val root = project
     scalaVersion := "3.6.4",
     organization := "io.github.sceredi",
     description := "A template for Scala3 projects",
-
     homepage := Some(
       url(
-        "https://github.com/sceredi/template-for-scala3-projects"
-      )
+        "https://github.com/sceredi/template-for-scala3-projects",
+      ),
     ),
     licenses := List(
-      "MIT" -> url("https://mit-license.org/")
+      "MIT" -> url("https://mit-license.org/"),
     ),
     versionScheme := Some("early-semver"),
     developers := List(
@@ -21,8 +20,8 @@ lazy val root = project
         "sceredi",
         "Simone Ceredi",
         "ceredi.simone@gmail.com",
-        url("https://github.com/sceredi")
-      )
+        url("https://github.com/sceredi"),
+      ),
     ),
     scalacOptions ++= Seq(
       "-Werror",
@@ -39,17 +38,16 @@ lazy val root = project
       "-explain",
       "-feature",
       "-language:strictEquality",
-      "-language:implicitConversions"
+      "-language:implicitConversions",
     ),
     coverageEnabled := true,
     semanticdbEnabled := true,
     semanticdbVersion := scalafixSemanticdb.revision,
-    wartremoverErrors ++= Warts.allBut(Wart.Any),
+    wartremoverErrors ++= Warts.all,
 
     /*
      * Dependencies
      */
     libraryDependencies ++= scalaTestBundle,
-    libraryDependencies += scalaTestJUnit5
+    libraryDependencies += scalaTestJUnit5,
   )
-
