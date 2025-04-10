@@ -1,1 +1,3 @@
 extends: mergify-config
+queue_rules:
+  - name: Default
