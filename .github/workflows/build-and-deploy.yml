@@ -136,9 +136,9 @@ jobs:
             cd docs
             npm install
             npm run build
-            if [ -d ../target/scala-${{ steps.scala-version.outputs.version }}/api/ ]
+            if [ -d ../target/scala-${{ needs.dry-website-build.outputs.scala_version }}/api/ ]
             then
-              mv ../target/scala-${{ steps.scala-version.outputs.version }}/api/ ./build/
+              mv ../target/scala-${{ needs.dry-website-build.outputs.scala_version }}/api/ ./build/
             fi
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v4
