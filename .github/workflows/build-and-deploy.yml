@@ -92,7 +92,7 @@ jobs:
       - name: Checkout
         uses: DanySK/action-checkout@0.2.22
       - name: Setup node
-        uses: actions/setup-node@v4.1.0
+        uses: actions/setup-node@v4.3.0
         with:
           cache: npm
           node-version: lts/*
@@ -130,7 +130,7 @@ jobs:
       - name: Checkout
         uses: DanySK/action-checkout@0.2.22
       - name: Setup node
-        uses: actions/setup-node@v4.1.0
+        uses: actions/setup-node@v4.3.0
         with:
           cache: npm
           node-version: lts/*
