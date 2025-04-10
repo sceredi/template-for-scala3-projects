@@ -97,6 +97,18 @@ jobs:
           cache: npm
           node-version: lts/*
       - run: npm ci
+      - name: Setup scala
+        uses: actions/setup-java@v4.6.0
+        with:
+          distribution: temurin
+          java-version: 17
+          cache: sbt
+      - uses: sbt/setup-sbt@v1.1.5
+      - name: Assembly fatjar
+        run: |
+            sbt assembly
+            mkdir -p target/fatjar
+            mv target/scala-${{ needs.dry-website-build.outputs.scala_version }}/root-assembly-*.jar target/fatjar/${{ github.repository }}.jar
       - name: Release
         run: |
             npx semantic-release

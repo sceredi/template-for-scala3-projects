@@ -17,7 +17,12 @@ config.plugins.push(
       publishCmd: publishCmd,
     },
   ],
-  "@semantic-release/github",
+  [
+    "@semantic-release/github",
+    {
+      assets: [{ path: "target/fatjar/*.jar" }],
+    },
+  ],
   "@semantic-release/git",
 );
 config.tagFormat = "v${version}";
