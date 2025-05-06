@@ -1,3 +1,18 @@
+## [1.0.1](https://github.com/sceredi/template-for-scala3-projects/compare/v1.0.0...v1.0.1) (2025-05-06)
+
+### Dependency updates
+
+* **core-deps:** update dependency scala to v3.7.0 ([47d9e05](https://github.com/sceredi/template-for-scala3-projects/commit/47d9e05d8129be56566f54b7c3ba45cbf3580ce6))
+* **deps:** update dependency org.wartremover:sbt-wartremover to v3.3.3 ([60755cf](https://github.com/sceredi/template-for-scala3-projects/commit/60755cf08bcd5d788473059bb86f182779b802be))
+* **deps:** update dependency scalafmt to v3.9.5 ([79c09bb](https://github.com/sceredi/template-for-scala3-projects/commit/79c09bb6d0f24f6883813697f9f6630f97e96835))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.126 ([a884123](https://github.com/sceredi/template-for-scala3-projects/commit/a884123b9d5f091a91bfc08bdb082db08081718f))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.127 ([d1cd56b](https://github.com/sceredi/template-for-scala3-projects/commit/d1cd56b5f3c4e57528b0c51ce9e8e4388eda6710))
+* **deps:** update node.js to 22.15 ([3640ce3](https://github.com/sceredi/template-for-scala3-projects/commit/3640ce314bb024b39e4c89f28f75b7a46944f05c))
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-node action to v4.4.0 ([985d0cf](https://github.com/sceredi/template-for-scala3-projects/commit/985d0cf62a9a787c0e7af5d6a9ec38c5d10064f9))
+
 ## [1.0.0](https://github.com/sceredi/template-for-scala3-projects/compare/v0.1.1...v1.0.0) (2025-04-10)
 
 ### ⚠ BREAKING CHANGES
