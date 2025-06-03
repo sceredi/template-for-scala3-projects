@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[1903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/template-for-scala3-projects/blog","blogTitle":"Blog","authorsListPath":"/template-for-scala3-projects/blog/authors"}')}}]);
