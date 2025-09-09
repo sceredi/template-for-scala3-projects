@@ -1,3 +1,31 @@
+## [1.0.4](https://github.com/sceredi/template-for-scala3-projects/compare/v1.0.3...v1.0.4) (2025-09-09)
+
+### Dependency updates
+
+* **core-deps:** update dependency scala to v3.7.3 ([2eecec8](https://github.com/sceredi/template-for-scala3-projects/commit/2eecec80d5d4cd731d81cdf94aa244b4336deb86))
+* **deps:** update dependency @mdx-js/react to v3.1.1 ([f289275](https://github.com/sceredi/template-for-scala3-projects/commit/f289275ba8bcd10ed684032778aad116020d2be9))
+* **deps:** update dependency com.github.sbt:sbt-unidoc to v0.6.0 ([2afe06b](https://github.com/sceredi/template-for-scala3-projects/commit/2afe06bf2ef72b1952bf1b71f635b91fa2887468))
+* **deps:** update dependency org.wartremover:sbt-wartremover to v3.4.1 ([23f12a7](https://github.com/sceredi/template-for-scala3-projects/commit/23f12a73a3f8fc97fd4672372fab7076cc2ced94))
+* **deps:** update dependency sbt/sbt to v1.11.4 ([bee88c1](https://github.com/sceredi/template-for-scala3-projects/commit/bee88c189c2186c154589416a10a782029993a47))
+* **deps:** update dependency sbt/sbt to v1.11.5 ([c237cec](https://github.com/sceredi/template-for-scala3-projects/commit/c237cecf463ec1f40092037d585ce4a61fb4518d))
+* **deps:** update dependency sbt/sbt to v1.11.6 ([8005afc](https://github.com/sceredi/template-for-scala3-projects/commit/8005afca9624d62843f0a4e2d44a7b36d8944d2a))
+* **deps:** update dependency scalafmt to v3.9.9 ([2ea6c63](https://github.com/sceredi/template-for-scala3-projects/commit/2ea6c636522e376f4a221097c70c8d449d05c013))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.139 ([e2d1bab](https://github.com/sceredi/template-for-scala3-projects/commit/e2d1bab19836265348b47c37daa8a12ea6c2ddf0))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.140 ([9a02962](https://github.com/sceredi/template-for-scala3-projects/commit/9a029628989d248532dd1c651e03148beac28c64))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.141 ([#65](https://github.com/sceredi/template-for-scala3-projects/issues/65)) ([c7f5a70](https://github.com/sceredi/template-for-scala3-projects/commit/c7f5a70e7ec13d5d521bd5106911641af210e4e5))
+* **deps:** update node.js to 22.18 ([1f1dea0](https://github.com/sceredi/template-for-scala3-projects/commit/1f1dea04c782e09d9e351a5949a57f0f8da8bdc5))
+* **deps:** update node.js to 22.19 ([c1c53d2](https://github.com/sceredi/template-for-scala3-projects/commit/c1c53d23b6e7e1f1781a028c3f03d2ad1c0f8c45))
+* **deps:** update react monorepo to v19.1.1 ([1ed754b](https://github.com/sceredi/template-for-scala3-projects/commit/1ed754bdf82fcfbc637657a802cb24ccaea31377))
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-java action to v5 ([1f96199](https://github.com/sceredi/template-for-scala3-projects/commit/1f96199d7475b9957c9028aba74d771ef07cd73c))
+* **deps:** update actions/setup-node action to v5 ([e6dd514](https://github.com/sceredi/template-for-scala3-projects/commit/e6dd514b2def08eafaad9aab5bdc39b9d49782fa))
+* **deps:** update danysk/action-checkout action to v0.2.23 ([e1d361e](https://github.com/sceredi/template-for-scala3-projects/commit/e1d361e5406dfe045634679e589497cfdde60388))
+* **deps:** update danysk/action-checkout action to v0.2.24 ([7513b54](https://github.com/sceredi/template-for-scala3-projects/commit/7513b54433babce8b988ed25bea3e3775759b8ab))
+* **deps:** update sbt/setup-sbt action to v1.1.12 ([9d2005d](https://github.com/sceredi/template-for-scala3-projects/commit/9d2005dce21e7f15ea6f24365d4c225bf6db6bba))
+* **deps:** update sbt/setup-sbt action to v1.1.13 ([af507c9](https://github.com/sceredi/template-for-scala3-projects/commit/af507c931161e6404c987276f82b0afcdf66c9e7))
+
 ## [1.0.3](https://github.com/sceredi/template-for-scala3-projects/compare/v1.0.2...v1.0.3) (2025-07-30)
 
 ### Dependency updates
