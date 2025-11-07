@@ -1,3 +1,40 @@
+## [1.0.5](https://github.com/sceredi/template-for-scala3-projects/compare/v1.0.4...v1.0.5) (2025-11-07)
+
+### Dependency updates
+
+* **core-deps:** update dependency scala to v3.7.4 ([5a37568](https://github.com/sceredi/template-for-scala3-projects/commit/5a37568358f337a19edc9dffea775a6974f89159))
+* **deps:** update dependency ch.epfl.scala:sbt-scalafix to v0.14.4 ([c87c5f2](https://github.com/sceredi/template-for-scala3-projects/commit/c87c5f21cd389b4fe8e34b678387543cc73728fd))
+* **deps:** update dependency org.scalameta:sbt-scalafmt to v2.5.6 ([bfed8c8](https://github.com/sceredi/template-for-scala3-projects/commit/bfed8c804ea20b8e2e28854a901224a614149341))
+* **deps:** update dependency org.scoverage:sbt-scoverage to v2.4.0 ([02f83c2](https://github.com/sceredi/template-for-scala3-projects/commit/02f83c2a25c37c741429b51690596036818985ee))
+* **deps:** update dependency org.scoverage:sbt-scoverage to v2.4.1 ([51cada0](https://github.com/sceredi/template-for-scala3-projects/commit/51cada06b8bdbe371781353230fc3972e4e8d37b))
+* **deps:** update dependency sbt/sbt to v1.11.7 ([b850f07](https://github.com/sceredi/template-for-scala3-projects/commit/b850f07662f40783d2acc660ccffc54d83dc349b))
+* **deps:** update dependency scalafmt to v3.10.0 ([d05e1ed](https://github.com/sceredi/template-for-scala3-projects/commit/d05e1ed740307120227e42c25cfca6a4eb6e6a48))
+* **deps:** update dependency scalafmt to v3.10.1 ([9394c65](https://github.com/sceredi/template-for-scala3-projects/commit/9394c6590333f443ffe5da673ed8e15227b80897))
+* **deps:** update dependency scalafmt to v3.9.10 ([d08bf14](https://github.com/sceredi/template-for-scala3-projects/commit/d08bf14f2dcbfc3ace124b52ef98630fbfb1bab1))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.142 ([bd87dfb](https://github.com/sceredi/template-for-scala3-projects/commit/bd87dfb022202aedeaa20506e49524f621c38002))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.143 ([79892e5](https://github.com/sceredi/template-for-scala3-projects/commit/79892e5a6c87a07a129e5420ad967b6d13ee555f))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.144 ([8c5831f](https://github.com/sceredi/template-for-scala3-projects/commit/8c5831fb1247119a807cd2cd7f38183a28eacd1d))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.145 ([2c9e621](https://github.com/sceredi/template-for-scala3-projects/commit/2c9e6219e07162260eb7d467c648adba9b29f8b7))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.146 ([3e2a316](https://github.com/sceredi/template-for-scala3-projects/commit/3e2a316f1d9d518ed1fcf32fa693cf7cd6abffbd))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.147 ([4893261](https://github.com/sceredi/template-for-scala3-projects/commit/489326161b08d728f97b024e8dc0e6006a2ebee5))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.148 ([c279f16](https://github.com/sceredi/template-for-scala3-projects/commit/c279f160bcac3470219082637d8ad48c1d91e6bc))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.149 ([fa734d3](https://github.com/sceredi/template-for-scala3-projects/commit/fa734d34937d6cbf9ad1ecd7d6f8f17da8c4a771))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.150 ([1a48704](https://github.com/sceredi/template-for-scala3-projects/commit/1a48704f8f19420a798e216a7fd1243e7cd3c878))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.152 ([751ad23](https://github.com/sceredi/template-for-scala3-projects/commit/751ad237e759bd7775ee891cb693527a55f3d633))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.153 ([db044ae](https://github.com/sceredi/template-for-scala3-projects/commit/db044aeca0f54b8de833eb7b7263519544083658))
+* **deps:** update docusaurus monorepo to v3.9.0 ([26fb841](https://github.com/sceredi/template-for-scala3-projects/commit/26fb84137587c80dfd7adee1530220659668a39c))
+* **deps:** update docusaurus monorepo to v3.9.1 ([23a53fe](https://github.com/sceredi/template-for-scala3-projects/commit/23a53feec8e24da11a56e37ee8c6dec878bc7d1c))
+* **deps:** update docusaurus monorepo to v3.9.2 ([307ba6b](https://github.com/sceredi/template-for-scala3-projects/commit/307ba6b55a504181be7a50e8a3bbb30ac2582f6c))
+* **deps:** update node.js to 22.20 ([86708b1](https://github.com/sceredi/template-for-scala3-projects/commit/86708b118ab2a5fccf95945bbe5bcbe2938f9d97))
+* **deps:** update node.js to 22.21 ([89f13b8](https://github.com/sceredi/template-for-scala3-projects/commit/89f13b88e4120f92c12506925172f1afb801242f))
+* **deps:** update node.js to v24 ([6e29bbd](https://github.com/sceredi/template-for-scala3-projects/commit/6e29bbdc60f5411fa6a98935fb9ed0c450c60df9))
+* **deps:** update react monorepo to v19.2.0 ([4cc23e7](https://github.com/sceredi/template-for-scala3-projects/commit/4cc23e7119656c97ed418bc764db814824ddda02))
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-node action to v6 ([b9b4591](https://github.com/sceredi/template-for-scala3-projects/commit/b9b4591993d5a4a413bf567d2ab2e50b1f885a25))
+* **deps:** update sbt/setup-sbt action to v1.1.14 ([ddf3fb7](https://github.com/sceredi/template-for-scala3-projects/commit/ddf3fb7219166feb10ff574da884487630377752))
+
 ## [1.0.4](https://github.com/sceredi/template-for-scala3-projects/compare/v1.0.3...v1.0.4) (2025-09-09)
 
 ### Dependency updates
