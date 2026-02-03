@@ -20,7 +20,7 @@ jobs:
           distribution: temurin
           java-version: 17
           cache: sbt
-      - uses: sbt/setup-sbt@v1.1.15
+      - uses: sbt/setup-sbt@v1.1.16
       - name: Build and test
         shell: bash
         run: sbt +test
@@ -36,7 +36,7 @@ jobs:
           distribution: temurin
           java-version: 17
           cache: sbt
-      - uses: sbt/setup-sbt@v1.1.15
+      - uses: sbt/setup-sbt@v1.1.16
       - name: Compile
         shell: bash
         run: sbt compile
@@ -60,7 +60,7 @@ jobs:
           distribution: temurin
           java-version: 17
           cache: sbt
-      - uses: sbt/setup-sbt@v1.1.15
+      - uses: sbt/setup-sbt@v1.1.16
       - name: Build scaladoc
         shell: bash
         run: sbt doc
@@ -103,7 +103,7 @@ jobs:
           distribution: temurin
           java-version: 17
           cache: sbt
-      - uses: sbt/setup-sbt@v1.1.15
+      - uses: sbt/setup-sbt@v1.1.16
       - name: Assembly fatjar
         run: |
             sbt assembly
@@ -140,7 +140,7 @@ jobs:
           distribution: temurin
           java-version: 17
           cache: sbt
-      - uses: sbt/setup-sbt@v1.1.15
+      - uses: sbt/setup-sbt@v1.1.16
       - name: Generate ScalaDoc
         run: sbt doc
       - name: Generate doc website
